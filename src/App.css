@@ -1,0 +1,50 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container{
+  width:95%;
+  padding:10px 15px;
+  flex-direction: column;
+   font-family: Poppins;
+   display: flex;
+   gap : 10px;
+   border: 1px solid grey
+}
+
+.title{
+  font-weight: 600;
+}
+
+.container > input{
+  width: 50%;
+  padding:4px 8px;
+}
+
+.slider{
+  width:100%;
+}
+
+.labels{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.tenure__container{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tenure{
+  width: 15%;
+  height:50px;
+  border:none;
+  border-radius: 100px;
+  background-color: rgb(225,225,225);
+}
+
+.selected{
+  background-color: #009ad6;
+  color:white;
+}
